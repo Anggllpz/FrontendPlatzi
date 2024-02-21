@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .TituloPeru {
+            color: rgb(208, 72, 14);
+        }
+
+        .TituloPeru:hover {
+            color: rgb(7, 197, 99);
+        }
+
+        .TituloPeru + section:{
+            color: black;
+        }
+
+        .TituloPeru + section:hover {
+            color: blue;
+        }
+
+        div .TituloPeru > div::before {
+            content: "B";
+        }
+
+        #TituloIndia {
+            color: brown;
+        }
+
+        a[href="https://arrendamientossantafe.com/"] {
+            color: bisque;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="TituloPeru"> Peru </div>
+        <div>
+            <p>Pe</p>
+            <p>ru</p>
+            <p>Da</p>
+            <p>As</p>
+            <p>Co</p>
+        </div>
+    <section> 
+        <div> Peru da asco</div>
+    </section>
+    
+    <div id="TituloIndia"> India</div>
+    <a href="https://arrendamientossantafe.com/">Arriendos</a>
+</body>
+</html>
